@@ -1,0 +1,44 @@
+4357787		Seed for RNG
+5000000         Number of time steps in the simulation
+10.             Initial number density of A particles
+0.	        Initial number density of B particles
+0.	        Initial number density of S particles
+64.	        Size of the simulation box in x-direction !*Adjust number of cells in
+64.	        Size of the simulation box in y-direction !*distribution of molecules to
+32.	        Size of the simulation box in z-direction !*the cells
+20               Number of dimers
+1.0	        Nondim. mass of one A particle
+1.0	        Nondim. mass of one B particle
+1.0	        Nondim. mass of one S particle
+2.0	        C sphere radius 
+2.0             N sphere radius 
+5.0             Internuclear separation
+1.0             Reduced LJ energy parameter for A with C([Ef/Ef])
+1.0             Reduced LJ energy parameter for B with C([Ei/Ef])
+1.0             Reduced LJ energy parameter for S with C([Ei/Ef])
+1.0             Reduced LJ energy parameter for A with N([Ef/Ef])
+0.1	        Reduced LJ energy parameter for B with N([Ei/Ef])
+1.0	        Reduced LJ energy parameter for S with N([Ei/Ef])
+1.0             LJ wall distance parameter
+1.0             Reduced LJ energy parameter for C and N with wall    
+1.0             Motor-motor LJ extra distance parameter
+1.0             Reduced LJ energy parameter for inter-motor interaction
+1.0	        Reaction probability at catalytic dimer, A -> B
+0.0             Reaction probability at catalytic dimer, B -> A
+0.2             Reduced temperature ([kb*T]/Ea)
+1.5             Skin radius for neighbour list
+1.0             MPC cell size
+1.5707963267948966192	MPC rotation angle
+0.005           MD time step
+0.1             MPC collision time
+10000           Sort step
+0.0001		Rate of back reaction k1, B->A
+32.             Height for x-slab of concentration field
+32.             Height for y-slab of concentration field
+3.              Height for z-slab of concentration field
+6               Type of reactive grid
+0               Wall reaction direction: 0, S->A; 1, A->S
+5000000	        Files for solvent written at every nth time step
+5000000         Files for total number of A and B particle at every nth time step
+1000            Files for system energy and momentum written at every nth time step
+1000            Files for dimer written at every nth time step
