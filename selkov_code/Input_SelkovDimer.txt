@@ -1,0 +1,37 @@
+8154543		Seed for RNG
+230400		Initial number of F molecules
+54400		Initial number of G molecules
+422400		Initial number of inert solvent particles
+40.		Size of the simulation box in x-direction !*Adjust number of cells in
+40.		Size of the simulation box in y-direction !*distribution of molecules to
+40.		Size of the simulation box in z-direction !*the cells
+1.d0		Nondim. mass of one F particle ([ma/ma])
+1.d0		Nondim. mass of one G particle ([mb/ma])
+1.d0		Nondim. mass of one inert particle ([mi/ma]) 
+2.d0		C sphere radius 
+4.d0		N sphere radius 
+7.d0		Internuclear separation
+1.d0		Reduced LJ energy parameter for F with C([Ef/Ef])
+1.d0		Reduced LJ energy parameter for G with C([Eg/Ef])
+1.d0		Reduced LJ energy parameter for inert, C([Ei/Ef])
+1.d0		Reduced LJ energy parameter for F with N([Ef/Ef])
+1.0d0		Reduced LJ energy parameter for G with N([Eg/Ef])
+1.d0		Reduced LJ energy parameter for inert, N([Ei/Ef])
+1.		Reaction probability at catalytic dimer, F -> G
+0.		Reaction probability at catalytic dimer, G -> F
+1.d0		Reduced temperature ([kb*T]/Ea) !Need to divide by number in main program if fraction
+1.		MPC Cell Size
+0.005d0		MD time step
+.1d0		MPC collision time
+0.0009485	Rate of reaction k1 A->F (Incorporation of constant [A] concentration)
+0.0001		Rate of reaction k2 F->A
+0.0004		Rate of reaction k3 F+2G->3G
+0.0004		Rate of reaction k4 3G->F+2G
+0.001		Rate of reaction k5 G->B
+0.0001		Rate of reaction k6 B->G (Incorporation of constant [B] concentration
+10		Files for dimer written at every nth time step
+250000		Files for solvent written at every nth time step
+100		Files for system energy and momentum written at every nth time step
+10		Files for velocity along internuclear vector written at nth time step
+100		Files for total number of F and G particle at every nth time step
+1000		Files for flow field data
