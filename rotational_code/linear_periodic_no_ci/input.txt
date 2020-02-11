@@ -1,0 +1,33 @@
+2498047		Seed for RNG
+1000000      Number of time steps in the simulation
+10.         Initial number density of A particles
+0.	        Initial number density of B particles
+256.	        Size of the simulation box in x-direction !*Adjust number of cells in
+64.	        Size of the simulation box in y-direction !*distribution of molecules to
+32.	        Size of the simulation box in z-direction !*the cells
+26           Number of dimers
+1.0	        Nondim. mass of one A particle
+1.0	        Nondim. mass of one B particle
+2.0	        C sphere radius 
+2.0         N sphere radius 
+5.0         Internuclear separation
+1.0         Reduced LJ energy parameter for A with C([Ef/Ef])
+1.0         Reduced LJ energy parameter for B with C([Ei/Ef])
+0.1         Reduced LJ energy parameter for A with N([Ef/Ef])
+1.0	        Reduced LJ energy parameter for B with N([Ei/Ef])
+1000.0		Harmonic force constant, z dir.
+1.0         Gap between motor and wall
+1.0	        Reaction probability at catalytic dimer, A -> B
+0.0         Reaction probability at catalytic dimer, B -> A
+0.2         Reduced temperature ([kb*T]/Ea)
+0.7         Skin radius for neighbour list
+1.0         MPC cell size
+1.5707963267948966192	MPC rotation angle
+0.005       MD time step
+0.1         MPC collision time
+10000       Sort step
+0.001		Rate of back reaction
+1000000    	Files for solvent written at every nth time step
+5000        Files for total number of A and B particle at every nth time step
+5000        Files for system energy and momentum written at every nth time step
+5000        Files for dimer written at every nth time step
