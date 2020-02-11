@@ -1,0 +1,1 @@
+for i in {k2,k3,k4}; do for sep in {3563,11768,33102,55690}; do for eps in {eps_B_lt_A,eps_B_gt_A}; do echo ${i} ${sep} ${eps} ; sleep 3 ; vim ${i}/sep_${sep}/${eps}/Run_1/input.txt ; done ; done ; done

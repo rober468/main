@@ -1,0 +1,1 @@
+for i in {k2,k3,k4} ; do mkdir $i ; cd $i ; for j in {3563,11768,33102,55690} ; do mkdir sep_${j} ; cd sep_${j} ; for k in {eps_B_lt_A,eps_B_gt_A} ; do mkdir $k ; cd $k ; for l in {1..50} ; do mkdir Run_$l ; done ; cp $SCRATCH/Rotors/Langevin/Code/* Run_1 ; cd .. ; done ; cd .. ; done ; cd .. ; done

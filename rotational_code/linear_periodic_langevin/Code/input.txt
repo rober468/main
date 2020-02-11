@@ -1,0 +1,26 @@
+25		Number of rotors
+5000000		Number of timesteps
+0.005		Timestep
+0.2		Temperature
+2.		Radius of catalytic spheres
+2.		Radius of noncatalytic spheres
+5.		Distance between C and N sphere for each rotor
+0.35631		Minimum separation between rotors' solvent interaction zones
+10.		Total number density of solvent
+0.0002145	Rotational diffusion coefficient
+0.		Mean of standard normal variable
+1.		Variance of standard normal variable
+0.1		Energy of interaction between A and N sphere
+1.0		Energy of interaction between B and N sphere
+1.		Size of MPC cell
+1.57079632679	Rotation angle in MPC
+1.		Mass of solvent particles
+0.1		MPC time step
+0.001		Forward reaction rate in solution
+0.0		Backward reaction rate in solution
+10.		Stead-state concentration of A at infinity
+0.		Stead-state concentration of B at infinity
+1.		Probability of forward reaction at motor
+0.		Probability of backward reaction at motor
+1000		Frequency of angle recording
+10000000	Frequency of restart data recording
